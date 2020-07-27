@@ -1,0 +1,157 @@
+body{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+p {
+  color: #5d5b5b;
+}
+/* Headings */
+.big-heading{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 2.5rem 0;
+}
+.navbar-brand {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+/* title */
+#title{
+  background: #d3ebee ;
+  text-align: left;
+}
+
+#title .container-fluid {
+  
+  padding:  3% 7% 6%;
+}
+
+#title p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+/* title buttons */
+.title-button {
+  margin: 3.5% 2.3%;
+  padding: 0.5rem 1.7rem;
+    font-size: 1.30rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    text-align: left;
+}
+/* title-image */
+.title-image {
+
+  width: 50%;
+  border-radius: 20px;
+  border:solid #98e1e9;
+
+  margin: 0px 113px 0px 223px;
+
+}
+
+  /* transform: rotate(45deg); */
+
+/* Feature */
+#features {
+  padding: 1% 15%;
+}
+.feature-title{
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+.feature-box {
+  padding: 5%;
+}
+
+.features-icon {
+  color: rgb(162, 231, 243);
+  margin-bottom: 1rem;
+}
+.features-icon:hover {
+  color: rgb(114, 236, 171);
+}
+/* testimonials */
+#testimonials {
+
+  background-color: #cceff3;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  margin: 20px;
+  width: 50%;
+  border-radius: 20px;
+}
+.testimonial-text{
+  
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+
+}
+.pricing-text-big{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+/* media quarie */
+@media (max-width: 1193px) {
+  #title {
+    text-align: center;
+  }
+}
+@media (max-width: 1193px){
+  .title-image{
+   width:37%;
+   margin: 0px;
+  }
+}
+/* Call to action */
+#cta {
+  padding: 5% 12%;
+  background-color: #cceff3;
+
+}
+
+.cta-images {
+  color: #000;
+  margin: 10px;
+}
+/* footer */
